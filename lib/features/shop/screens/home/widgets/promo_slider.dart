@@ -48,19 +48,23 @@ class TPromoSlider extends StatelessWidget {
               const SizedBox(height: TSizes.spaceBtwItems),
               Center(
                 child: Obx(
-                  () => Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      // Display page indicators based on the number of banners
-                      for (int i = 0; i < controller.banners.length; i++)
-                        TCircularContainer(
-                          width: 20,
-                          height: 4,
-                          margin: const EdgeInsets.only(right: 10),
-                          backgroundColor: controller.carousalCurrentIndex.value == i ? TColors.primary : TColors.grey,
-                        ),
-                    ],
+                      () => SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        // Display page indicators based on the number of banners
+                        for (int i = 0; i < controller.banners.length; i++)
+                          TCircularContainer(
+                            width: 20,
+                            height: 4,
+                            margin: const EdgeInsets.only(right: 10),
+                            backgroundColor: controller.carousalCurrentIndex.value == i ? TColors.primary : TColors.grey,
+                          ),
+                      ],
+                    ),
                   ),
+
                 ),
               ),
             ],
