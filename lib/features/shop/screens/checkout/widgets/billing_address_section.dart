@@ -1,4 +1,4 @@
-import 'package:cwt_ecommerce_app/features/personalization/models/address_model.dart';
+import 'package:cnc_ecommerce_app/features/personalization/models/address_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

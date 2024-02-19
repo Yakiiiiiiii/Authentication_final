@@ -1,4 +1,4 @@
-import 'package:cwt_ecommerce_app/data/repositories/product/product_repository.dart';
+import 'package:cnc_ecommerce_app/data/repositories/product/product_repository.dart';
 import 'package:get/get.dart';
 
 import '../../../data/repositories/brands/brand_repository.dart';

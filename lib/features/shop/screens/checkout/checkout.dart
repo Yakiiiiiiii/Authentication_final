@@ -54,6 +54,7 @@ class CheckoutScreen extends StatelessWidget {
                     TBillingAmountSection(subTotal: subTotal),
                     const SizedBox(height: TSizes.spaceBtwItems),
 
+
                     /// Divider
                     const Divider(),
                     const SizedBox(height: TSizes.spaceBtwItems),

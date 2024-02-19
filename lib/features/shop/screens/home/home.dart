@@ -1,4 +1,4 @@
-import 'package:cwt_ecommerce_app/features/shop/controllers/product/product_controller.dart';
+import 'package:cnc_ecommerce_app/features/shop/controllers/product/product_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

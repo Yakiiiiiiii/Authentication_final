@@ -1,5 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:cwt_ecommerce_app/features/shop/controllers/product/images_controller.dart';
+import 'package:cnc_ecommerce_app/features/shop/controllers/product/images_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../../common/widgets/appbar/appbar.dart';

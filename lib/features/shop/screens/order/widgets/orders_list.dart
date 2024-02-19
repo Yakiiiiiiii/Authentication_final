@@ -1,5 +1,5 @@
-import 'package:cwt_ecommerce_app/common/widgets/loaders/animation_loader.dart';
-import 'package:cwt_ecommerce_app/utils/constants/image_strings.dart';
+import 'package:cnc_ecommerce_app/common/widgets/loaders/animation_loader.dart';
+import 'package:cnc_ecommerce_app/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

@@ -1,5 +1,5 @@
-import 'package:cwt_ecommerce_app/features/shop/controllers/categories_controller.dart';
-import 'package:cwt_ecommerce_app/features/shop/controllers/product/banner_controller.dart';
+import 'package:cnc_ecommerce_app/features/shop/controllers/categories_controller.dart';
+import 'package:cnc_ecommerce_app/features/shop/controllers/product/banner_controller.dart';
 import 'package:get/get.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
 import '../../../data/repositories/banners/banner_repository.dart';

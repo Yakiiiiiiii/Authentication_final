@@ -1,5 +1,5 @@
-import 'package:cwt_ecommerce_app/features/shop/controllers/categories_controller.dart';
-import 'package:cwt_ecommerce_app/home_menu.dart';
+import 'package:cnc_ecommerce_app/features/shop/controllers/categories_controller.dart';
+import 'package:cnc_ecommerce_app/home_menu.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,4 +1,4 @@
-import 'package:cwt_ecommerce_app/common/widgets/shimmers/vertical_product_shimmer.dart';
+import 'package:cnc_ecommerce_app/common/widgets/shimmers/vertical_product_shimmer.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../common/widgets/appbar/appbar.dart';
