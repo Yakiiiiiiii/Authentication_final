@@ -25,6 +25,8 @@ class TDummyData {
     BannerModel(imageUrl: TImages.banner4, targetScreen: TRoutes.search, active: true),
     BannerModel(imageUrl: TImages.banner5, targetScreen: TRoutes.settings, active: true),
     BannerModel(imageUrl: TImages.banner6, targetScreen: TRoutes.userAddress, active: true),
+    BannerModel(imageUrl: TImages.promoBanner1, targetScreen: TRoutes.userAddress, active: true),
+    BannerModel(imageUrl: TImages.promoBanner2, targetScreen: TRoutes.userAddress, active: true),
 
   ];
 
@@ -199,15 +201,15 @@ class TDummyData {
 
   /// -- List of all Brands
   static final List<BrandModel> brands = [
-    BrandModel(id: '1', image: TImages.FlameLogo, name: 'Flame', productsCount: 265, isFeatured: true),
-    BrandModel(id: '2', image: TImages.KrinkLogo, name: 'krink', productsCount: 95, isFeatured: true),
-    BrandModel(id: '8', image: TImages.UniPaintLogo, name: 'Uni Paint', productsCount: 36, isFeatured: false),
-    BrandModel(id: '9', image: TImages.MolotowLogo, name: 'Molotow', productsCount: 36, isFeatured: false),
-    BrandModel(id: '5', image: TImages.PoscaLogo, name: 'Posca', productsCount: 16, isFeatured: true),
-    BrandModel(id: '10', image: TImages.Austerlogo, name: 'Auster', productsCount: 36, isFeatured: false),
-    BrandModel(id: '3', image: TImages.MontanaLogo, name: 'Montana', productsCount: 36, isFeatured: true),
-    BrandModel(id: '4', image: TImages.OTRLogo, name: 'OTR', productsCount: 65, isFeatured: true),
-    BrandModel(id: '6', image: TImages.DangLogo, name: 'Dang', productsCount: 36, isFeatured: true),
+    BrandModel(id: '1', image: TImages.flame, name: 'Flame', productsCount: 265, isFeatured: true),
+    BrandModel(id: '2', image: TImages.krinkLogo, name: 'krink', productsCount: 95, isFeatured: true),
+    BrandModel(id: '8', image: TImages.uniPaintLogo, name: 'Uni Paint', productsCount: 36, isFeatured: false),
+    BrandModel(id: '9', image: TImages.molotowLogo, name: 'Molotow', productsCount: 36, isFeatured: false),
+    BrandModel(id: '5', image: TImages.poscaLogo, name: 'Posca', productsCount: 16, isFeatured: true),
+    BrandModel(id: '10', image: TImages.austerlogo, name: 'Auster', productsCount: 36, isFeatured: false),
+    BrandModel(id: '3', image: TImages.montanaLogo, name: 'Montana', productsCount: 36, isFeatured: true),
+    BrandModel(id: '4', image: TImages.otrLogo, name: 'OTR', productsCount: 65, isFeatured: true),
+    BrandModel(id: '6', image: TImages.dangLogo, name: 'Dang', productsCount: 36, isFeatured: true),
     //BrandModel(id: '7', image: TImages.electronicsIcon, name: 'Samsung', productsCount: 36, isFeatured: false),
   ];
 
@@ -344,7 +346,7 @@ class TDummyData {
       isFeatured: true,
       thumbnail: TImages.productImage1,
       description: 'Black Flame Marker',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Flame', productsCount: 265, isFeatured: true),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Flame', productsCount: 265, isFeatured: true),
       images: [TImages.productImage1, TImages.productImage1, TImages.productImage1, TImages.productImage1],
       salePrice: 4,
       sku: 'ABR4568',
@@ -383,7 +385,7 @@ class TDummyData {
       thumbnail: TImages.productImage69,
       description:
       'This is a Product description for krink Marker. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '2', image: TImages.KrinkLogo, name: 'Krink'),
+      brand: BrandModel(id: '2', image: TImages.krinkLogo, name: 'Krink'),
       images: [TImages.productImage68, TImages.productImage69, TImages.productImage5],
       salePrice: 8,
       sku: 'ABR4568',
@@ -403,7 +405,7 @@ class TDummyData {
       thumbnail: TImages.productImage64,
       description:
       'This is a Product description for Aqua Color brush. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '6', image: TImages.DangLogo, name: 'Auster'),
+      brand: BrandModel(id: '6', image: TImages.dangLogo, name: 'Auster'),
       images: [TImages.productImage64, TImages.productImage65, TImages.productImage66, TImages.productImage67],
       salePrice: 30,
       sku: 'ABR4568',
@@ -423,7 +425,7 @@ class TDummyData {
       thumbnail: TImages.productImage4,
       description:
       'UniPosca Marker. There are more things that can be added but its just a demo and nothing else.',
-      brand: BrandModel(id: '6', image: TImages.PoscaLogo, name: 'Posca'),
+      brand: BrandModel(id: '6', image: TImages.poscaLogo, name: 'Posca'),
       images: [TImages.productImage4, TImages.productImage4, TImages.productImage4, TImages.productImage4],
       salePrice: 18,
       sku: 'ABR4568',
@@ -472,7 +474,7 @@ class TDummyData {
       isFeatured: false,
       thumbnail: TImages.productImage10,
       description: 'Flame Metal Marker. Quality product, Long Lasting',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Flame', productsCount: 265, isFeatured: true),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Flame', productsCount: 265, isFeatured: true),
       images: [TImages.productImage7, TImages.productImage8, TImages.productImage9, TImages.productImage10],
       salePrice: 15,
       sku: 'ABR4568',
@@ -512,7 +514,7 @@ class TDummyData {
       isFeatured: false,
       thumbnail: TImages.productImage11,
       description: ' Molotow Black and gray Protective Gloves',
-      brand: BrandModel(id: '4', image: TImages.MolotowLogo, name: 'Molotow'),
+      brand: BrandModel(id: '4', image: TImages.molotowLogo, name: 'Molotow'),
       images: [TImages.productImage11, TImages.productImage12, TImages.productImage13, TImages.productImage12],
       salePrice: 650,
       sku: 'ABR4568',
@@ -532,7 +534,7 @@ class TDummyData {
       thumbnail: TImages.productImage6,
       description:
       'This is a Product description for NY fat cap. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '7', image: TImages.Austerlogo, name: 'Auster'),
+      brand: BrandModel(id: '7', image: TImages.austerlogo, name: 'Auster'),
       salePrice: 1,
       sku: 'ABR4568',
       categoryId: '4',
@@ -552,7 +554,7 @@ class TDummyData {
       thumbnail: TImages.productImage19,
       description:
       'This is a Product description for krinkk 32mm Marker. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Nike'),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Nike'),
       images: [TImages.productImage19, TImages.productImage20, TImages.productImage21, TImages.productImage22],
       salePrice: 200,
       sku: 'ABR4568',
@@ -571,7 +573,7 @@ class TDummyData {
       thumbnail: TImages.productImage20,
       description:
       'This is a Product description for Nike Air Jordon. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Nike'),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Nike'),
       images: [TImages.productImage20, TImages.productImage23, TImages.productImage21, TImages.productImage22],
       // salePrice: 200,
       sku: 'ABR4568',
@@ -591,7 +593,7 @@ class TDummyData {
       thumbnail: TImages.productImage21,
       description:
       'This is a Product description for Flame Can. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Flame'),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Flame'),
       images: [TImages.productImage21, TImages.productImage23, TImages.productImage23, TImages.productImage23],
       salePrice: 10,
       sku: 'ABR4568',
@@ -611,7 +613,7 @@ class TDummyData {
       thumbnail: TImages.productImage22,
       description:
       'This is a Product description for Caparos T_Shirt. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.OTRLogo, name: 'OTR'),
+      brand: BrandModel(id: '1', image: TImages.otrLogo, name: 'OTR'),
       images: [TImages.productImage22, TImages.productImage24, TImages.productImage22, TImages.productImage24],
       salePrice: 11,
       sku: 'ABR4568',
@@ -630,7 +632,7 @@ class TDummyData {
       thumbnail: TImages.productImage52,
       description:
       'This is a Product description for Nike wild horse shoes. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '4', image: TImages.MolotowLogo, name: 'Molotow'),
+      brand: BrandModel(id: '4', image: TImages.molotowLogo, name: 'Molotow'),
       images: [TImages.productImage23, TImages.productImage20, TImages.productImage21, TImages.productImage22],
       salePrice: 8,
       sku: 'ABR4568',
@@ -650,7 +652,7 @@ class TDummyData {
       thumbnail: TImages.productImage26,
       description:
       'This is a Product description for UniPaint Marker. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.UniPaintLogo, name: 'UniPaint'),
+      brand: BrandModel(id: '1', image: TImages.uniPaintLogo, name: 'UniPaint'),
       images: [TImages.productImage26, TImages.productImage26, TImages.productImage26, TImages.productImage26],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -669,7 +671,7 @@ class TDummyData {
       thumbnail: TImages.productImage42,
       description:
       'This is a Product description for Flame T-shirt. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Flame'),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Flame'),
       images: [TImages.productImage41, TImages.productImage40, TImages.productImage42, TImages.productImage41],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -688,7 +690,7 @@ class TDummyData {
       thumbnail: TImages.productImage53,
       description:
       'This is a Product description for Hall of Fame poster. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '4', image: TImages.MontanaLogo, name: 'Montana'),
+      brand: BrandModel(id: '4', image: TImages.montanaLogo, name: 'Montana'),
       images: [TImages.productImage53, TImages.productImage53],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -703,7 +705,7 @@ class TDummyData {
       thumbnail: TImages.productImage27,
       description:
       'This is a Product description for Nike Track suit Parrot Green. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Nike'),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Nike'),
       images: [TImages.productImage27, TImages.productImage24, TImages.productImage25, TImages.productImage26],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -724,7 +726,7 @@ class TDummyData {
       thumbnail: TImages.productImage28,
       description:
       'This is a Product description for Football. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '1', image: TImages.FlameLogo, name: 'Flame'),
+      brand: BrandModel(id: '1', image: TImages.flame, name: 'Flame'),
       images: [TImages.productImage28, TImages.productImage28],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -742,7 +744,7 @@ class TDummyData {
       thumbnail: TImages.productImage25,
       description:
       'This is a Product description for Dope Dripper. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '10', image: TImages.Austerlogo, name: 'Auster'),
+      brand: BrandModel(id: '10', image: TImages.austerlogo, name: 'Auster'),
       images: [TImages.productImage25, TImages.productImage25, TImages.productImage25, TImages.productImage25],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -763,7 +765,7 @@ class TDummyData {
       thumbnail: TImages.productImage30,
       description:
       'This is a Product description for Cricket Bat. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '2', image: TImages.KrinkLogo, name: 'Adidas'),
+      brand: BrandModel(id: '2', image: TImages.krinkLogo, name: 'Adidas'),
       images: [TImages.productImage30, TImages.productImage29, TImages.productImage28, TImages.productImage31],
       // salePrice: 400,
       sku: 'ABR4568',
@@ -782,7 +784,7 @@ class TDummyData {
       thumbnail: TImages.productImage31,
       description:
       'This is a Product description for Tennis Racket. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '2', image: TImages.KrinkLogo, name: 'Adidas'),
+      brand: BrandModel(id: '2', image: TImages.krinkLogo, name: 'Adidas'),
       images: [TImages.productImage31, TImages.productImage29, TImages.productImage30, TImages.productImage28],
       // salePrice: 400,1
       sku: 'ABR4568',
@@ -805,7 +807,7 @@ class TDummyData {
       thumbnail: TImages.productImage32,
       description:
       'Flutter is Google’s mobile UI open source framework to build high-quality native (super fast) interfaces for iOS and Android apps with the unified codebase.',
-      brand: BrandModel(id: '8', image: TImages.UniPaintLogo, name: 'Kenwood'),
+      brand: BrandModel(id: '8', image: TImages.uniPaintLogo, name: 'Kenwood'),
       images: [TImages.productImage43, TImages.productImage44, TImages.productImage45, TImages.productImage46],
       salePrice: 600,
       sku: 'ABR4568',
@@ -845,7 +847,7 @@ class TDummyData {
       thumbnail: TImages.productImage33,
       description:
       'This is a Product description for Molotow cap.',
-      brand: BrandModel(id: '8', image: TImages.UniPaintLogo, name: 'Molotow Cap'),
+      brand: BrandModel(id: '8', image: TImages.uniPaintLogo, name: 'Molotow Cap'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '11',
@@ -863,7 +865,7 @@ class TDummyData {
       thumbnail: TImages.productImage22,
       description:
       'This is a Product description for Bedroom Sofa. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '8', image: TImages.UniPaintLogo, name: 'Kenwood'),
+      brand: BrandModel(id: '8', image: TImages.uniPaintLogo, name: 'Kenwood'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '11',
@@ -881,7 +883,7 @@ class TDummyData {
       thumbnail: TImages.productImage3,
       description:
       'This is a Product description for Bedroom Wardrobe. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '8', image: TImages.UniPaintLogo, name: 'Kenwood'),
+      brand: BrandModel(id: '8', image: TImages.uniPaintLogo, name: 'Kenwood'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '11',
@@ -900,7 +902,7 @@ class TDummyData {
       thumbnail: TImages.productImage4,
       description:
       'This is a Product description for Kitchen Counter. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '2', image: TImages.KrinkLogo, name: 'Adidas'),
+      brand: BrandModel(id: '2', image: TImages.krinkLogo, name: 'Adidas'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '12',
@@ -918,7 +920,7 @@ class TDummyData {
       thumbnail: TImages.productImage37,
       description:
       'This is a Product description for Dinning Table. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '2', image: TImages.KrinkLogo, name: 'Adidas'),
+      brand: BrandModel(id: '2', image: TImages.krinkLogo, name: 'Adidas'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '12',
@@ -936,7 +938,7 @@ class TDummyData {
       thumbnail: TImages.productImage5,
       description:
       'This is a Product description for Refrigerator. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '2', image: TImages.KrinkLogo, name: 'Adidas'),
+      brand: BrandModel(id: '2', image: TImages.krinkLogo, name: 'Adidas'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '12',
@@ -955,7 +957,7 @@ class TDummyData {
       thumbnail: TImages.productImage39,
       description:
       'This is a Product description for Office Chair. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '9', image: TImages.MolotowLogo, name: 'IKEA'),
+      brand: BrandModel(id: '9', image: TImages.molotowLogo, name: 'IKEA'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '13',
@@ -973,7 +975,7 @@ class TDummyData {
       thumbnail: TImages.productImage40,
       description:
       'This is a Product description for Office Chair. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '9', image: TImages.MolotowLogo, name: 'IKEA'),
+      brand: BrandModel(id: '9', image: TImages.molotowLogo, name: 'IKEA'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '13',
@@ -991,7 +993,7 @@ class TDummyData {
       thumbnail: TImages.productImage41,
       description:
       'This is a Product description for Office Desk. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '9', image: TImages.MolotowLogo, name: 'IKEA'),
+      brand: BrandModel(id: '9', image: TImages.molotowLogo, name: 'IKEA'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '13',
@@ -1009,7 +1011,7 @@ class TDummyData {
       thumbnail: TImages.productImage42,
       description:
       'This is a Product description for Office Desk. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '9', image: TImages.MolotowLogo, name: 'IKEA'),
+      brand: BrandModel(id: '9', image: TImages.molotowLogo, name: 'IKEA'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '13',
@@ -1031,7 +1033,7 @@ class TDummyData {
       thumbnail: TImages.productImage6,
       description:
       'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '10', image: TImages.Austerlogo, name: 'Acer'),
+      brand: BrandModel(id: '10', image: TImages.austerlogo, name: 'Acer'),
       images: [TImages.productImage6, TImages.productImage6, TImages.productImage6, TImages.productImage6],
       salePrice: 800,
       sku: 'ABR4568',
@@ -1071,7 +1073,7 @@ class TDummyData {
       thumbnail: TImages.productImage8,
       description:
       'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '10', image: TImages.Austerlogo, name: 'Acer'),
+      brand: BrandModel(id: '10', image: TImages.austerlogo, name: 'Acer'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '14',
@@ -1089,7 +1091,7 @@ class TDummyData {
       thumbnail: TImages.productImage9,
       description:
       'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '10', image: TImages.Austerlogo, name: 'Acer'),
+      brand: BrandModel(id: '10', image: TImages.austerlogo, name: 'Acer'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '14',
@@ -1107,7 +1109,7 @@ class TDummyData {
       thumbnail: TImages.productImage50,
       description:
       'This is a Product description for Acer Laptop. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '10', image: TImages.Austerlogo, name: 'Acer'),
+      brand: BrandModel(id: '10', image: TImages.austerlogo, name: 'Acer'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '14',
@@ -1126,7 +1128,7 @@ class TDummyData {
       thumbnail: TImages.productImage51,
       description:
       'This is a Product description for Iphone. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '5', image: TImages.PoscaLogo, name: 'Apple'),
+      brand: BrandModel(id: '5', image: TImages.poscaLogo, name: 'Apple'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '15',
@@ -1144,7 +1146,7 @@ class TDummyData {
       thumbnail: TImages.productImage10,
       description:
       'This is a Product description for Iphone. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '5', image: TImages.PoscaLogo, name: 'Apple'),
+      brand: BrandModel(id: '5', image: TImages.poscaLogo, name: 'Apple'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '15',
@@ -1162,7 +1164,7 @@ class TDummyData {
       thumbnail: TImages.productImage11,
       description:
       'This is a Product description for Iphone. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '5', image: TImages.PoscaLogo, name: 'Apple'),
+      brand: BrandModel(id: '5', image: TImages.poscaLogo, name: 'Apple'),
       // salePrice: 400,1
       sku: 'ABR4568',
       categoryId: '15',
@@ -1181,7 +1183,7 @@ class TDummyData {
       thumbnail: TImages.productImage12,
       description:
       'This is a Product description for Iphone 12. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '5', image: TImages.PoscaLogo, name: 'Apple'),
+      brand: BrandModel(id: '5', image: TImages.poscaLogo, name: 'Apple'),
       images: [TImages.productImage12, TImages.productImage12, TImages.productImage12, TImages.productImage12],
       salePrice: 800,
       sku: 'ABR4568',
@@ -1254,7 +1256,7 @@ class TDummyData {
       thumbnail: TImages.productImage14,
       description:
       'This is a Product description for iphone 8. There are more things that can be added but i am just practicing and nothing else.',
-      brand: BrandModel(id: '5', image: TImages.PoscaLogo, name: 'iphone 8'),
+      brand: BrandModel(id: '5', image: TImages.poscaLogo, name: 'iphone 8'),
       images: [TImages.productImage15, TImages.productImage16, TImages.productImage15, TImages.productImage14],
       salePrice: 380,
       sku: 'ABR4568',

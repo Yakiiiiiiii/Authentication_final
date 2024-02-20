@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "976085440102",
+    "project_id": "can-caps",
+    "storage_bucket": "can-caps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976085440102:android:791702d4df8d8d40417fa7",
+        "android_client_info": {
+          "package_name": "com.Naresh.cnc_ecomerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976085440102-c5ica8k3qnut22dccmo81to8v3b4adku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Naresh.cnc_ecomerce",
+            "certificate_hash": "9e841d2c33c54be47b903ff196a658a369c73108"
+          }
+        },
+        {
+          "client_id": "976085440102-8mohq0v6d841snul3keas2sg6679udae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8lWgwb-7T8WvxGqC3Nxxix9yNDomIn00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976085440102-8mohq0v6d841snul3keas2sg6679udae.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "976085440102-o95m66pkq7rpv55tur84a5qtsan6i3eu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cwtEcommerceApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
